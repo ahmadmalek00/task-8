@@ -1,0 +1,39 @@
+.navbar{
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px ;
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+    background-color: white;
+    width: 100%;
+
+}
+.navbar .nav-links{
+    margin: 20px 0px;
+}
+
+
+.navbar .nav-links a{
+text-decoration: none;
+color: grey;
+font-size: 16px;
+margin: 0px 10px ;
+
+
+} 
+.navbar .nav-links a:hover{
+border-bottom: solid 1px orangered;
+ transition: 0.5s;
+
+}
+
+@media (max-width:900px) {
+    .navbar .nav-links{
+        display: none;
+    }
+
+}

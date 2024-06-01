@@ -1,0 +1,55 @@
+.servises h1
+{
+    text-align: center;
+}
+.cards{
+    display: flex;
+     justify-content: center;
+    align-items: center; 
+}
+.cards .Fcards , .Scards {
+border: solid 1px rgb(240, 240, 240);
+background-color:rgb(240, 240, 240) ;
+margin: 20px;
+border-radius: 15px;
+width:  500px;
+height:500px ;
+}
+.cards .Fcards h2 {
+    border-bottom: 3px solid orangered;
+    width: 150px;
+    margin: 10px;
+}
+.cards .Scards h2 {
+    border-bottom: 3px solid purple;
+    width: 150px;
+    margin: 10px;
+}
+
+.cards .Fcards p , .Scards p {
+width: 70%;
+
+}
+.ph4 {
+    display: flex;
+}
+.ph4 .ph5 img{
+    width: 200px;
+    height: 200px;
+}
+.ph4  .par2 p {
+    color: grey;
+
+}
+
+
+
+
+@media (max-width:800px) {
+    .cards{
+        flex-direction:column;
+    }
+    .cards .Fcards , .Scards{
+        width: 90%;
+    }
+}

@@ -1,0 +1,117 @@
+.footer{
+    background-color: rgb(22, 20, 29);
+    padding: 20px;
+}
+.footer h1{
+text-align: center;
+margin: 20px ;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards .car1{
+    margin: 20px;
+    border:2px solid white ;
+    background-color: white;
+    border-radius: 10px;
+    border-top: 12px orangered solid;
+    padding:0px 20px;
+}
+.cards .car1 h3{
+    font-size: 28px;
+}
+.cards .car1 p{
+    font-size: 18px;
+}
+.cards .car1 h2
+{
+    text-align: center;
+    border: 2px orangered solid;
+    padding: 10px 0px ;
+    border-radius: 10px;
+    color: orangered;
+}
+
+
+
+
+
+
+.cards .car2{
+    margin: 20px;
+    border:2px solid white ;
+    background-color: white;
+    border-radius: 10px;
+    border-top: 12px purple solid;
+    padding:0px 20px;
+}
+.cards .car2 h3{
+    font-size: 28px;
+}
+.cards .car2 p{
+    font-size: 18px;
+}
+.cards .car2 h2
+{
+    text-align: center;
+    border: 2px purple solid;
+    padding: 10px 0px ;
+    border-radius: 10px;
+    color: purple;
+}
+
+
+
+
+
+.cards .car3{
+    margin: 20px;
+    border:2px solid white ;
+    background-color: white;
+    border-radius: 10px;
+    border-top: 12px green solid;
+    padding:0px 20px;
+}
+.cards .car3 h3{
+    font-size: 28px;
+}
+.cards .car3 p{
+    font-size: 18px;
+}
+.cards .car3 h2
+{
+    text-align: center;
+    border: 2px green solid;
+    padding: 10px 0px ;
+    border-radius: 10px;
+    color: green;
+}
+
+
+
+
+
+.cards .car4{
+    margin: 20px;
+    border:2px solid white ;
+    background-color: white;
+    border-radius: 10px;
+    border-top: 12px rgb(0, 119, 255) solid;
+    padding:0px 20px;
+}
+.cards .car4 h3{
+    font-size: 28px;
+}
+.cards .car4 p{
+    font-size: 18px;
+}
+.cards .car4 h2
+{
+    text-align: center;
+    border: 2px rgb(0, 119, 255) solid;
+    padding: 10px 0px ;
+    border-radius: 10px;
+    color: rgb(0, 119, 255);
+}

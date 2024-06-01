@@ -1,0 +1,20 @@
+.cards-section {
+  background: url(./public/images/footer.svg);
+  height: 18vh;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+  top: 20px;
+}
+.cards-section .icons img{
+
+margin:  10px ;
+}
+
+.cards-section p{
+    color: white;
+    font-size: 18px;
+}
